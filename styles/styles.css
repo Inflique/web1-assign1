@@ -1,0 +1,26 @@
+body{
+    background-color:#54030A;   
+}
+
+@font-face {
+    font-family: 'relationship of melodrame';
+    src: url('fonts/relationship-of-melodrame.ttf'), format('truetype');
+}
+
+@font-face {
+    font-family: 'AlteHaasGroteskRegular';
+    src: url('fonts/AlteHaasGroteskRegular.ttf'), format('truetype');
+}
+
+header{
+    font-family: 'relationship of melodrame';
+    font-size: 36px;
+    color:#ffeedd;
+    text-align: center;
+}
+
+main{
+    font-family:'AlteHaasGroteskRegular';
+    color:#ffeedd;
+    text-align:center;
+}
