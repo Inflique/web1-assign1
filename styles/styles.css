@@ -2,6 +2,8 @@ body{
     background-color:#54030A;   
 }
 
+/*I tend to try too hard when it comes to anything with font and color,
+even if we weren't taught this yet*/
 @font-face {
     font-family: 'relationship of melodrame';
     src: url('fonts/relationship-of-melodrame.ttf'), format('truetype');
@@ -12,9 +14,11 @@ body{
     src: url('fonts/AlteHaasGroteskRegular.ttf'), format('truetype');
 }
 
+/*I wanna make my header BIG, also so I can have h1's in other places that
+can stnad on their own*/
 header{
     font-family: 'relationship of melodrame';
-    font-size: 36px;
+    font-size: 48px;
     color:#ffeedd;
     text-align: center;
 }
