@@ -33,3 +33,9 @@ p{
     max-width:560px; /*goated css parameter*/
     margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
 }
+
+footer{
+    color:#ffeedd;
+    font-family:'AlteHaasGroteskRegular';
+    text-align: center;
+}
