@@ -28,3 +28,8 @@ main{
     color:#ffeedd;
     text-align:center;
 }
+
+p{
+    max-width:560px; /*goated css parameter*/
+    margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
+}
