@@ -29,6 +29,10 @@ p{
     margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
 }
 
+img{
+    width: 540px;
+}
+
 footer{
     font-family:'AlteHaasGroteskRegular';
 }
