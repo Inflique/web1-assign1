@@ -25,12 +25,19 @@ header{
 }
 
 p{
+    text-align: left;
     max-width:560px; /*goated css parameter*/
     margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
 }
 
 img{
     width: 560px;
+}
+
+dd{
+    text-align: left;
+    max-width: 560px;
+    margin: auto;
 }
 
 footer{
