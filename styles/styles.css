@@ -3,6 +3,7 @@ body{
     color:#ffeedd;
     text-align: center;
     font-family:'AlteHaasGroteskRegular';
+    font-size: 18px; /*biggen the text?*/
 }
 
 /*I tend to try too hard when it comes to anything with font and color,
@@ -19,17 +20,21 @@ even if we weren't taught this yet*/
 
 /*I wanna make my header BIG, also so I can have h1's in other places that
 can stnad on their own*/
-header{
+/*06-16: I can finally isolate the site title*/
+.site-title{
     font-family: 'relationship of melodrame';
     font-size: 48px;
 }
 
-p{
-    text-align: left;
+/*Added main selector to center the footer and it... worked? if it's not broke
+don't fix it i guess*/
+main p{
+    text-align: left; /*ok maybe I hate centering now too*/
     max-width:560px; /*goated css parameter*/
     margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
 }
 
+/*keep it nice n tidy*/
 img{
     width: 560px;
 }
@@ -40,6 +45,8 @@ dd{
     margin: auto;
 }
 
-footer{
-    font-family:'AlteHaasGroteskRegular';
+header, footer{
+    background-color: #830610; /*neat lil subtle color shift*/
+    padding: 16px; /*The footer tightness is killing me*/
+    text-align: center;
 }
