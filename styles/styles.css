@@ -1,6 +1,6 @@
 body{
     background-color:#54030A;   
-    color:#ffeedd;
+    color:#fff9dd;
     text-align: center;
     font-family:'AlteHaasGroteskRegular';
     font-size: 18px; /*biggen the text?*/
@@ -23,7 +23,7 @@ can stnad on their own*/
 /*06-16: I can finally isolate the site title*/
 .site-title{
     font-family: 'relationship of melodrame';
-    font-size: 48px;
+    font-size: 96px;
 }
 
 /*Added main selector to center the footer and it... worked? if it's not broke
@@ -34,9 +34,35 @@ main p{
     margin:auto; /*no clue what this does EXACTLY, but it centered the text*/
 }
 
-/*keep it nice n tidy*/
-img{
+/*keep it nice n tidy. also using the id selector to keep things minimal*/
+#my-image{
     width: 560px;
+    box-shadow: 0 0 1px 2px black; /*cool 2000s-esque shadow*/
+}
+
+main ul{
+    list-style-type: square; /*i honestly had to look this up but now i know*/
+}
+
+nav ul{
+    list-style-type: none; /*guessed completely blind for this one and it 
+    worked*/
+}
+
+a{
+    background-color: #fff9dd;
+    text-decoration: none;
+    color: #000000;
+    border-color: #f9a552;
+}
+
+a:hover{
+    font-weight: bold; /*I can already see a timeline where I play with this
+    feature*/
+}
+
+a:active{
+    color: #f9a552;
 }
 
 dd{
