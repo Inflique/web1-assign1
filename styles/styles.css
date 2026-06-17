@@ -50,10 +50,10 @@ nav ul{
 }
 
 a{
-    background-color: #fff9dd;
-    text-decoration: none;
-    color: #000000;
-    border-color: #f9a552;
+    background-color: #fff9dd; /*make the buttons look like buttons*/
+    text-decoration: none; /*bye bye annoying underline*/
+    color: #000000; /*making the text readable*/
+    border-color: #f9a552; /*it doesn't seem to be doing anything*/
 }
 
 a:hover{
@@ -62,11 +62,13 @@ a:hover{
 }
 
 a:active{
-    color: #f9a552;
+    color: #f9a552; /*making the click a brighter orange so it's
+    distinguishable*/
 }
 
 dd{
-    text-align: left;
+    text-align: left; /*all these are some nitpicks with dd that were NOT
+    required by the way*/
     max-width: 560px;
     margin: auto;
 }
@@ -74,5 +76,6 @@ dd{
 header, footer{
     background-color: #830610; /*neat lil subtle color shift*/
     padding: 16px; /*The footer tightness is killing me*/
-    text-align: center;
+    text-align: center; /*i know you hate centering but at least this isn't
+    a paragraph*/
 }
